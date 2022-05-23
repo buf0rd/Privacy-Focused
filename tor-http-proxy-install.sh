@@ -8,7 +8,7 @@ ufw allow 9050
 ufw allow 8080
 cp ./torrc /etc/tor/torrc
 cp ./config /etc/privoxy/config
-service tor start && service privoxy start
+service tor restart && service privoxy restart
 
 print "Run nyx command to view relay status and statistics"
 
