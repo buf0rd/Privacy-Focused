@@ -10,6 +10,6 @@ cp ./torrc /etc/tor/torrc
 cp ./config /etc/privoxy/config
 service tor restart && service privoxy restart
 
-print "Run nyx command to view relay status and statistics"
+echo "Run nyx command to view relay status and statistics"
 
 exit 0 
